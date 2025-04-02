@@ -3,25 +3,23 @@ import { Link } from 'react-router-dom';
 
 
 
-import './navbar.css'; // Importer le fichier CSS pour le style   
+import './navbar.css'; 
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>
 
-      <nav className="navbar">
+    <div className='navbar'>
 
-        <ul className="navbar-links">
+        <ul className="list">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contacts</Link></li>
           <li><Link to="/portfolio">Portfolio</Link></li>
           <li><Link to="/skill">Skills</Link></li>
         </ul>
-      </nav>
-
     </div>
+
   );
 };
 
-export default navbar;
+export default Navbar;
