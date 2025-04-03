@@ -3,8 +3,8 @@ import { Routes, Route } from 'react-router-dom';
 
 // Importer tes composants pour les différentes pages
 import Home from './pages/homes/home';
-//import About from './pages/abouts/about';
-//import Contact from './pages/contacts/contact';
+import About from './pages/abouts/about';
+import Contact from './pages/contacts/contact';
 //import Skill from './pages/skills/skill';
 //import Portfolio from './pages/portfolio/portfolio';
 
@@ -16,7 +16,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
       

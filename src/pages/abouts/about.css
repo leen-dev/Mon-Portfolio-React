@@ -1,0 +1,44 @@
+.aboutcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    color: white;
+    perspective: 1000px;
+    background-image: url(../../assets/images/bg2.png);
+}    
+    
+.part{
+    width: 400px;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 0 10px 30px black;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: bacground-color 0.5s;
+    background-color: rgba(31, 30, 30, 0.281);
+}
+
+.part > h2{
+    text-align: center;
+    color: pink;
+}
+
+.l, .e{
+    width: 100%;
+}
+
+.l > h4, .e > h4 {
+    font-size: large;
+}
+
+.l > h4 span, .e > h4 span {
+    color: blue;
+}
+
+.l > p, .e > p  {
+    font-style: italic;
+}  
+
