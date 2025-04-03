@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './about.css';
-import katy from '../../assets/images/katy.jpg'; // Assurez-vous que le chemin d'accès à l'image est correct
+ // Assurez-vous que le chemin d'accès à l'image est correct
 
 
 const About = () => {
